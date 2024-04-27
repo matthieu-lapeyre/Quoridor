@@ -1179,8 +1179,8 @@ class QuoridorApp(App):
                     orientation: 'vertical'      
                     Slider:
                         min: 0
-                        max: {dp(TRAINING_LEVEL_NUM - 1)}
-                        value: {dp(TRAINING_LEVEL_NUM - 1)}
+                        max: {(TRAINING_LEVEL_NUM - 1)}
+                        value: {(TRAINING_LEVEL_NUM - 1)}
                         step: 1
                         orientation: "horizontal"
                         on_value: root.change_level_training(*args)   
