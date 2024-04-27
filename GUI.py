@@ -846,32 +846,32 @@ class QuoridorApp(App):
             points: (root.Wx - {dp(20)}, root.Wy + {dp(20)} - root.upside_down * {dp(40)}, root.Wx, root.Wy - {dp(20)} + root.upside_down * {dp(40)}, root.Wx + {dp(20)}, root.Wy + {dp(20)} - root.upside_down * {dp(40)})
 
     Label:
-        font_size: {dp(30)}
-        pos: ({dp(620)}, {dp(530)})
+        font_size: {dp(25)}
+        pos: ({dp(620)}, {dp(560)})
         color: 0, 0, 0, 1
         text: "turn:" + str(root.turn)
     Label:
-        font_size: {dp(30)}
-        pos: ({dp(680)}, {dp(500)})
+        font_size: {dp(25)}
+        pos: ({dp(680)}, {dp(530)})
         color: 0, 0, 0, 1
         text: root.move_str
     Label:
-        font_size: {dp(30)}
-        pos: ({dp(680)}, {dp(470)})
+        font_size: {dp(25)}
+        pos: ({dp(680)}, {dp(500)})
         color: 0, 0, 0, 1
         text: "player1 wall:" + str(root.player1wall)
     Label:
-        font_size: {dp(30)}
-        pos: ({dp(680)}, {dp(440)})
+        font_size: {dp(25)}
+        pos: ({dp(680)}, {dp(470)})
         color: 0, 0, 0, 1
         text: "player2 wall:" + str(root.player2wall)
     Label:
-        font_size: {dp(30)}
+        font_size: {dp(25)}
         pos: ({dp(820)}, {dp(530)})
         color: 0, 0, 0, 1
         text: root.remaining_time_str
     Label:
-        font_size: {dp(30)}
+        font_size: {dp(25)}
         pos: ({dp(850)}, {dp(500)})
         color: 0, 0, 0, 1
         text: root.game_result
